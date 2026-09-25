@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "cb:item/coal_brick"
+        "layer0": "slmslb_coal_bricks:coal_brick"
     }
 }

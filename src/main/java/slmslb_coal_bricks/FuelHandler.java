@@ -1,4 +1,4 @@
-package com.slimmyslabby.cb;
+package slmslb_coal_bricks;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;

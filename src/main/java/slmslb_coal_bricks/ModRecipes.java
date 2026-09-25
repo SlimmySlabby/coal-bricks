@@ -1,4 +1,4 @@
-package com.slimmyslabby.cb;
+package slmslb_coal_bricks;
 
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

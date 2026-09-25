@@ -1,7 +1,7 @@
-package com.slimmyslabby.cb;
+package slmslb_coal_bricks;
 
 import net.minecraft.item.Item;
-
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -22,7 +22,8 @@ public class RegistrationHandler {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        final ModelResourceLocation rlCoalBrickModel = new ModelResourceLocation(ModItems.COAL_BRICK.getRegistryName(), "inventory");
-        ModelLoader.setCustomModelResourceLocation(ModItems.COAL_BRICK, 0, rlCoalBrickModel);
+        final ResourceLocation registryName = ModItems.COAL_BRICK.getRegistryName();
+        final ModelResourceLocation model = new ModelResourceLocation(registryName, "inventory");
+        ModelLoader.setCustomModelResourceLocation(ModItems.COAL_BRICK, 0, model);
     }
 }
